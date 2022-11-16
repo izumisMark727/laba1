@@ -13,11 +13,3 @@ for i in range(len(sides)):
                 if s > smax:
                     smax = s
 print("Максимальная площадь треугольника", smax)
- #homework
-a=int(input())
-b=int(input())
-c=int(input())
-if b**2-4*a*c>=0: #проверка неотрицательности дискриминанта
-    print((b*(-1)+(b**2-4*a*c)**0.5)/2*a,(b*(-1)-(b**2-4*a*c)**0.5)/2*a) #2 формулы для корней
-else:
-    print("No real roots")
